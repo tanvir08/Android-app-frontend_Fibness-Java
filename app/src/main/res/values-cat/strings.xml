@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">Configuració</string>
+
+    <string name="first_fragment_label">Primer Fragment</string>
+    <string name="second_fragment_label">Segon Fragment</string>
+    <string name="next">següent</string>
+    <string name="previous">Anterior</string>
+
+    <string name="hello_first_fragment">Hola primer fragment</string>
+    <string name="hello_second_fragment">Hola segundo fragment. Arg: %1$s</string>
+    <string name="email_address">Correu electrònic</string>
+    <string name="password">Contrasenya</string>
+    <string name="don_t_remember_password">No recordes la contrasenya?</string>
+    <string name="login_now">Inicia Sessió</string>
+    <string name="don_t_have_an_account_register_here">No tens un compte? registra aquí</string>
+    <string name="sign_in_with_facebook">Inicia sessió amb Facebook</string>
+    <string name="or">o</string>
+    <string name="todo">TODO</string>
+    <string name="run_free_feel_free">Run free, feel free</string>
+    <string name="full_name">Nom complet</string>
+    <string name="confirm_password">Confirmar contrasenya</string>
+    <string name="register">Registrar</string>
+    <string name="already_a_member_login_here">Ja ets usuari? Entri aquí</string>
+
+    <string name="facebook_app_id">140550577384866</string>
+    <string name="fb_login_protocol_scheme">fb140550577384866</string>
+    <string name="cancel_login">L\'operació va ser cancel·lada</string>
+    <string name="error_login">S\'ha produït un error a l\'entrar</string>
+    <string name="nombre_apellidos">Nom i cognoms</string>
+    <string name="male">home</string>
+    <string name="female">dona</string>
+    <string name="im_user">imatge de l\'usuari</string>
+    <string name="guardar">guardar</string>
+    <string name="descripcion_user">Descripció</string>
+    <string name="fecha_nacimiento">Selecciona data de naixement</string>
+    <string name="gender">Gènere</string>
+    <string name="back_button">Botó de retrocés</string>
+
+    <!-- Strings used para obtener hora / fecha -->
+    <string name="formato_fecha">dd/mm/yyyy</string>
+    <string name="formato_hora">hh:mm</string>
+
+    <string name="birth_date">Data de naixement</string>
+    <string name="country">País</string>
+    <string name="description">Descripció</string>
+    <string name="user_name">Nom d\'usuari</string>
+    <string name="profile_picture">Foto de perfil</string>
+    <string name="Resetpassword">Restablir contrasenya</string>
+    <string name="newPassword">Nova Contrasenya</string>
+    <string name="reset">Restablir</string>
+    <string name="aboutMe">Sobre mi</string>
+    <string name="weeklyProgress">Progrés setmanal</string>
+    <string name="viewProfile">Veure perfil</string>
+    <string name="achievements">Assoliments</string>
+    <string name="editProfile">Edita perfil</string>
+    <string name="titleAch">Comença l\'aventura</string>
+    <string name="descriptionAch">Per cada ruta recorreguda s\'afegeix una certa quantitat de metres al teu progressió. Quants cims pots coronar?</string>
+    <string name="letGo">Som-hi!</string>
+    <string name="share">Compartir</string>
+    <string name="done">Fet</string>
+    <string name="profile">Perfil</string>
+    <string name="noAge">No mostrar la meva edat</string>
+    <string name="noDistance">Amagar la meva distància</string>
+    <string name="eventInv">Invitacions a esdeveniments</string>
+    <string name="notifications">Notificacions</string>
+    <string name="newFollower">Nou Seguidor</string>
+    <string name="newMsg">Nou Missatge</string>
+    <string name="contact">Contacte</string>
+    <string name="sendEmail">Envia\'ns un mail</string>
+    <string name="changeLang">Canviar Idioma</string>
+    <string name="logOut">Tancar Sessió</string>
+    <string name="deleteAccount">Eliminar Compte</string>
+    <string name="followers">Seguidors</string>
+    <string name="following">Seguits</string>
+    <string name="post">Post</string>
+    <string name="title_activity_maps">Mapa</string>
+    <string name="message">Les millors vistes s\'aconsegueixen després d\'una escalada dura.</string>
+    <string name="chat">CHAT</string>
+    <string name="users">USUARIS</string>
+    <string name="blockUser">Bloquejar usuari</string>
+    <string name="unlockUser">Desbloca usuari</string>
+    <string name="sayHello">Digues hola</string>
+    <string name="Send">Enviar</string>
+    <string name="Users">Usuaris</string>
+    <string name="Follow">Seguir</string>
+    <string name="Following">Seguint</string>
+    <string name="msgFollow">Estas siguint</string>
+    <string name="bkUser">Bloquejar usuari</string>
+    <string name="accept">Acceptar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="bkMsg">Estàs segur que vols bloquejar a aquest usuari? L\'usuari no podrà veure el teu perfil ni enviar-te missatges</string>
+    <string name="unlockMsg">¿Segur que vols desbloquejar a aquest usuari? L\'usuari podrà veure el teu perfil i enviar-te missatges.</string>
+    <string name="bkAccounts">Comptes bloquejats</string>
+
+    <string name="Rest">DESCANS:</string>
+    <string name="Series">SERIES: </string>
+    <string name="Repetitions">REPETICIONS:</string>
+    <string name="Custom">Personalitzat</string>
+    <string name="Simple">Simple</string>
+
+    <string name="AddEx">Afegeix Exercici</string>
+
+    <string name="AddMeal">Afegeix un Menjar</string>
+    <string name="Time">Hora</string>
+    <string name="Min">Minuts</string>
+
+    <string name="Delete">Esborrar</string>
+
+    <string name="Description">Descripció</string>
+    <string name="Name">Nom</string>
+
+    <string name="Calories">Calories</string>
+    <string name="directions_activity_toast_message">La distància és:</string>
+    <string name="name_of_the_event">Nom de l\'esdeveniment</string>
+    <string name="short_description_of_the_event">Petita descripció de l\'esdeveniment</string>
+    <string name="add_a_food">Afegir aliment</string>
+    <string name="save">guardar</string>
+    <string name="origin_point">origen</string>
+    <string name="destination_point">destí</string>
+    <string name="back_arrow">flecha_atras</string>
+    <string name="edit_profile">Editar perfil</string>
+    <string name="coma">,</string>
+    <string name="user_country">País de l\'usuari</string>
+    <string name="delete">Eliminar</string>
+    <string name="start_navigation">Inicia navegació</string>
+    <string name="edit">Editar</string>
+    <string name="two_points">:</string>
+    <string name="title">Títol</string>
+    <string name="the_best_views_are_achieved_after_a_hard_climb">Les millors vistes s\'aconsegueixen després d\'una dura pujada.</string>
+
+    <string name="WriteAMessage">Escriu un missatge</string>
+    <string name="Previously">Prèviament</string>
+
+    <string name="AddAName">Afegeix un nom</string>
+    <string name="Diet">Dieta</string>
+
+    <string name="PleaseAddAName">Si us plau, afegeix un nom</string>
+    <string name="NameAlreadyUsed">Aquest nom ja s\'ha utilitzat</string>
+    <string name="Meal">Menjar</string>
+    <string name="AddAnHour">Si us plau, afegiex una hora</string>
+    <string name="AddAValidHour">Si us plau, afegiex una hora vàlida</string>
+    <string name="PleaseAddMinutes">Si us plau, afegeix minuts</string>
+    <string name="AddValidMinutes">Si us plau, afegeix minuts vàlids</string>
+    <string name="AddANumber">Si us plau, afegeix un número</string>
+    <string name="Food">Aliment</string>
+    <string name="Exercise">Exercici</string>
+    <string name="Training">Entrenament</string>
+    <string name="SelectExercise">Selecciona exercici</string>
+
+    <!-- Array Ejercicios -->
+    <string-array name="exercises">
+        <item>Selecciona exercici</item>
+        <item>esquat</item>
+        <item>Hollow Hold</item>
+        <item>Lunges</item>
+        <item>Back Extension Hold</item>
+        <item>Planxa</item>
+        <item>Abdominals</item>
+        <item>Salts de tisores</item>
+        <item>Flexions</item>
+        <item>Dips</item>
+        <item>Soldadet</item>
+        <item>Abdominals inferiors</item>
+    </string-array>
+
+    <!-- Array dias -->
+    <string-array name="days">
+        <item>Dilluns</item>
+        <item>Dimarts</item>
+        <item>Dimecres</item>
+        <item>Dijous</item>
+        <item>Divendres</item>
+        <item>Disabte</item>
+        <item>Diumenge</item>
+    </string-array>
+
+    <string name="ranking">Ranking:</string>
+    <string name="imp">IMPORTAR</string>
+    <string name="msgComment">Deixa un missatge</string>
+    <string name="training">ENTRENAMENT</string>
+    <string name="diets">DIETES</string>
+    <string name="routes">RUTES</string>
+    <string name="Rutas">Rutes</string>
+    <string name="Join">UNEIX-TE</string>
+    <string name="Leave">ABANDONAR</string>
+    <string name="AddADate">Si us plau, afegeix una data</string>
+    <string name="AddAPlace">Si us plau, afegeix un lloc</string>
+    <string name="Events">Events</string>
+
+</resources>

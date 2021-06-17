@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/users_bg"
+            android:layout_centerVertical="true"
+            >
+            <TextView
+                android:id="@+id/prefix"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="#FFF"
+                android:textStyle="bold"
+                android:text=""
+                android:layout_centerInParent="true"/>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#145795"
+            android:text="Usename"
+            android:layout_marginStart="90dp"
+            android:layout_centerVertical="true"/>
+
+        <Button
+            android:id="@+id/btn_following"
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:text="@string/following"
+            android:textAllCaps="false"
+            android:textColor="@color/c_bkg"
+            android:background="@drawable/boton_redondo2"
+            android:layout_margin="10dp"
+            android:layout_alignParentEnd="true"
+            />
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

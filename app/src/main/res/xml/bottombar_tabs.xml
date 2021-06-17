@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tabs>
+    <tab
+        id="@+id/tab_perfil"
+        icon="@drawable/perfil_icon"
+        title="Profile"
+        activeColor="@color/seleccion"/>
+    <tab
+        id="@+id/tab_entrenamientos"
+        icon="@drawable/entrenamientos_icon"
+        title="Trainings"
+        activeColor="@color/seleccion"/>
+    <tab
+        id="@+id/tab_rutas"
+        icon="@drawable/rutas_icon"
+        title="Routes"
+        activeColor="@color/seleccion"/>
+    <tab
+        id="@+id/tab_dietas"
+        icon="@drawable/dietas_icon"
+        title="Diets"
+        activeColor="@color/seleccion"/>
+    <tab
+        id="@+id/tab_eventos"
+        icon="@drawable/eventos_icon"
+        title="Events"
+        activeColor="@color/seleccion"/>
+</tabs>

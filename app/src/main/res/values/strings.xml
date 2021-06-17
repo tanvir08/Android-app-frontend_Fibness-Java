@@ -1,0 +1,190 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" translatable="false">fibness</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="email_address">Email address</string>
+    <string name="password" tools:ignore="DuplicateDefinition">Password</string>
+    <string name="don_t_remember_password">Don\'t Remember Password?</string>
+    <string name="login_now">Login Now</string>
+    <string name="don_t_have_an_account_register_here">Don\'t have an account? Register Here</string>
+    <string name="sign_in_with_facebook">Sign in with Facebook</string>
+    <string name="or">or</string>
+    <string name="todo">TODO</string>
+    <string name="run_free_feel_free">Run free, feel free</string>
+    <string name="full_name">Full name</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="register">Register</string>
+    <string name="already_a_member_login_here">Already a member? Login Here</string>
+
+    <string name="facebook_app_id">140550577384866</string>
+    <string name="fb_login_protocol_scheme">fb140550577384866</string>
+    <string name="cancel_login">The operation was canceled</string>
+    <string name="error_login">An error occurred on entering</string>
+    <string name="nombre_apellidos">Nombre y apellidos</string>
+    <string name="male">male</string>
+    <string name="female">female</string>
+    <string name="im_user">imagen del usuario</string>
+    <string name="guardar">guardar</string>
+    <string name="descripcion_user">Descripción</string>
+    <string name="fecha_nacimiento">Selecciona fecha de nacimiento</string>
+    <string name="gender">Gender</string>
+    <string name="back_button">Back button</string>
+
+    <!-- Strings used para obtener hora / fecha -->
+    <string name="formato_fecha">dd/mm/yyyy</string>
+    <string name="formato_hora">hh:mm</string>
+
+    <string name="birth_date">Birth date</string>
+    <string name="country">Country</string>
+    <string name="description">Description</string>
+    <string name="user_name">User name</string>
+    <string name="profile_picture">Profile picture</string>
+    <string name="Resetpassword">Reset Password</string>
+    <string name="newPassword">New Password</string>
+    <string name="reset">Reset</string>
+    <string name="aboutMe">About me</string>
+    <string name="ranking">Ranking:</string>
+    <string name="training">TRAINING</string>
+    <string name="diets">DIETS</string>
+    <string name="routes">ROUTES</string>
+    <string name="weeklyProgress">Weekly progress</string>
+    <string name="viewProfile">View Profile</string>
+    <string name="achievements">Achievements</string>
+    <string name="editProfile">Edit Profile</string>
+    <string name="titleAch">"Start the adventure "</string>
+    <string name="descriptionAch">For each route traveled is added a certain amount of meters to your progression. How many peaks can you crown?</string>
+    <string name="letGo">Here we go!</string>
+    <string name="share">Share</string>
+    <string name="done">Done</string>
+    <string name="profile">Profile</string>
+    <string name="noAge">Don\'t show my age</string>
+    <string name="noDistance">Hide my distance</string>
+    <string name="eventInv">Event invitations</string>
+    <string name="notifications">Notifications</string>
+    <string name="newFollower">New Follower</string>
+    <string name="newMsg">New Message</string>
+    <string name="contact">Contact</string>
+    <string name="sendEmail">Send us an email</string>
+    <string name="changeLang">Change Language</string>
+    <string name="logOut">Log Out</string>
+    <string name="deleteAccount">Delete Account</string>
+    <string name="followers">Followers</string>
+    <string name="following">Following</string>
+    <string name="post">Post</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="message">The best views are achieved after a hard climb.</string>
+    <string name="chat">CHAT</string>
+    <string name="users">USERS</string>
+    <string name="blockUser">Block user</string>
+    <string name="unlockUser">Unlock user</string>
+    <string name="sayHello">Say hello</string>
+    <string name="Send">Send</string>
+    <string name="Users">Users</string>
+    <string name="Follow">Follow</string>
+    <string name="Following">Following</string>
+    <string name="msgFollow">You are following</string>
+    <string name="bkUser">Block user</string>
+    <string name="accept">Accept</string>
+    <string name="cancel">Cancel</string>
+    <string name="bkMsg">Are you sure you want to block this user? The user will not be able to see your profile or send you messages</string>
+    <string name="unlockMsg">Are you sure you want to unlock this user? The user will be able to see your profile and send you messages</string>
+    <string name="bkAccounts">Blocked Accounts</string>
+    <string name="directions_activity_toast_message" tools:ignore="MissingTranslation">The distance is:</string>
+
+    <string name="Rest">REST: </string>
+    <string name="Series">SERIES: </string>
+    <string name="Repetitions">REPETITIONS: </string>
+    <string name="Custom">Custom</string>
+    <string name="Simple">Simple</string>
+
+    <string name="AddEx">Add an Exercise</string>
+
+    <string name="AddMeal">Add a Meal</string>
+    <string name="Time">Hour</string>
+    <string name="Min">Minutes</string>
+
+    <string name="Delete">Delete</string>
+
+    <string name="Description">Description</string>
+    <string name="Name">Name</string>
+
+    <string name="Calories">Calories</string>
+    <string name="name_of_the_event">Name of the event</string>
+    <string name="short_description_of_the_event">Short description of the event</string>
+    <string name="add_a_food">Add a Food</string>
+    <string name="save">Save</string>
+    <string name="origin_point">origin</string>
+    <string name="destination_point">destination</string>
+    <string name="back_arrow">back arrow</string>
+    <string name="edit_profile">Edit profile</string>
+    <string name="coma">,</string>
+    <string name="user_country">User country</string>
+    <string name="delete">Delete</string>
+    <string name="start_navigation">Start navigation</string>
+    <string name="edit">Edit</string>
+    <string name="two_points">:</string>
+    <string name="title">Title</string>
+    <string name="the_best_views_are_achieved_after_a_hard_climb">The best views are achieved after a hard climb.</string>
+    <string name="imp">IMPORT</string>
+    <string name="msgComment">Leave a message</string>
+
+    <string name="WriteAMessage">Write a message</string>
+    <string name="Previously">Previously</string>
+
+    <string name="AddAName">Add a name</string>
+    <string name="Diet">Diet</string>
+    <string name="PleaseAddAName">Please, add a name</string>
+    <string name="NameAlreadyUsed">This name is already used</string>
+    <string name="Meal">Meal</string>
+    <string name="AddAnHour">Please, add an Hour</string>
+    <string name="AddAValidHour">Please, add a valid Hour</string>
+    <string name="PleaseAddMinutes">Please, add Minutes</string>
+    <string name="AddValidMinutes">Please, add valid Minutes</string>
+    <string name="AddANumber">Please, add a number</string>
+    <string name="Food">Food</string>
+    <string name="Exercise">Exercise</string>
+    <string name="Training">Training</string>
+    <string name="SelectExercise">Select exercise</string>
+
+    <!-- Array Ejercicios -->
+    <string-array name="exercises">
+        <item>Select exercise</item>
+        <item>Squat</item>
+        <item>Hollow Hold</item>
+        <item>Lunges</item>
+        <item>Back Extension Hold</item>
+        <item>Plank</item>
+        <item>Sit ups</item>
+        <item>Jumping Jacks</item>
+        <item>Push Up</item>
+        <item>Dips</item>
+        <item>Burpees</item>
+        <item>Leg Raises</item>
+    </string-array>
+
+    <!-- Array dias -->
+    <string-array name="days">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+    <string name="Rutas">Routes</string>
+    <string name="Join">JOIN</string>
+    <string name="Leave">LEAVE</string>
+    <string name="AddADate">Please, add a date</string>
+    <string name="AddAPlace">Please, add a place</string>
+    <string name="Events">Events</string>
+
+</resources>

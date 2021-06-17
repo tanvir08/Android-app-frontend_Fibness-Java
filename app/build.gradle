@@ -1,0 +1,88 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+
+
+    defaultConfig {
+        applicationId "com.pes.fibness"
+        minSdkVersion 24
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation 'com.facebook.android:facebook-android-sdk:4.42.0'
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'com.google.android.material:material:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'androidx.navigation:navigation-fragment:2.2.2'
+    implementation 'androidx.navigation:navigation-ui:2.2.2'
+    //import volley library to use methods get, posts, etc
+    implementation 'com.android.volley:volley:1.1.1'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+    implementation 'com.roughike:bottom-bar:2.3.1'
+    implementation 'com.google.android.gms:play-services-maps:17.0.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    testImplementation 'junit:junit:4.13'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
+    /*for use passay*/
+    implementation 'com.github.MarcinOrlowski:passay-android:1.2.0'
+    /*libraries added for send email*/
+    compile files('libs/activation.jar')
+    compile files('libs/additional.jar')
+    compile files('libs/mail.jar')
+
+    /*data visualization char --> mpandroidchart*/
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.0.3'
+
+
+    /*for the chat*/
+    implementation 'com.scaledrone:scaledrone-java:0.6.0'
+
+    /* for taking profile pics */
+    implementation 'com.github.jkwiecien:EasyImage:2.1.1'
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
+
+    /* for routes list */
+    implementation 'com.android.support:cardview-v7:28.0.0'
+    implementation "androidx.recyclerview:recyclerview:1.1.0"
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'com.getbase:floatingactionbutton:1.10.1'
+    implementation 'com.mapbox.mapboxsdk:mapbox-android-sdk:9.1.0'
+    implementation 'com.mapbox.mapboxsdk:mapbox-android-navigation:0.42.6'
+    implementation 'com.mapbox.mapboxsdk:mapbox-android-navigation-ui:0.42.6'
+    implementation ('com.mapbox.mapboxsdk:mapbox-android-directions:1.0.0@aar'){ transitive=true }
+    implementation 'com.github.mastrgamr:mapbox-android-utils:v0.3'
+
+    /* for events */
+    implementation 'com.mapbox.mapboxsdk:mapbox-android-plugin-places-v9:0.12.0'
+    implementation 'com.mapbox.mapboxsdk:mapbox-android-plugin-locationlayer:0.7.1'
+    implementation 'com.mapbox.mapboxsdk:mapbox-android-plugin-building:0.1.0'
+    implementation 'com.mapbox.mapboxsdk:mapbox-android-plugin-places:0.2.1'
+
+
+}

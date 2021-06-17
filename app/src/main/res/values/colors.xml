@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#15202B</color>
+    <color name="colorPrimaryDark">#15202B</color>
+    <color name="colorAccent">#4ABFED</color>
+
+    <!--definicion de colores-->
+    <color name="dark_blue">#3023AE</color>
+    <color name="purple">#c86dd7</color>
+    <color name="app_bkg_color">#1e304b</color>
+
+    <color name="white">#ccffffff</color>
+    <color name="white_light">#1affffff </color>
+    <color name="medium">#66ffffff</color>
+
+    <!--values for profile screen-->
+    <color name="colorPr">#49beff</color>
+    <color name="colorPrDark">#65fce5</color>
+    <color name="accent">#0d5d98</color>
+    <color name="address">#2d7092</color>
+    <color name="followers">#0d5d98</color>
+    <color name="headings">#3797cf</color>
+    <color name="solidCircle">#80ffff</color>
+    <color name="circleBorder">#30ffff</color>
+    <color name="gradEnd">#67efc8</color>
+    <color name="gradStart">#63c9ff</color>
+    <color name="folloersBg">#65dce5</color>
+    <color name="followingBg">#498eff</color>
+    <color name="grey">#e5e5e5</color>
+
+    <!--colores para la app-->
+    <color name="c_bkg">#163947</color>
+    <color name="c_icon_bkg_sel">#4ABFED</color>
+    <color name="c_icon_bkg_unsel">#0B89BA</color>
+    <color name="c_let_dark_bkg">#E6EDF0</color>
+    <color name="c_let_light_bkg">#44626E</color>
+
+    <!--colores entrenamientos, dietas y barra inferior-->
+    <color name="oscuro">#15202B</color>
+    <color name="claro">#D8E9F0</color>
+    <color name="blanco">#FFFFFF</color>
+    <color name="seleccion">#1DA1F2</color>
+    <color name="seleccion_oscuro">#3A96BA</color>
+    <color name="alternativo">#43626E</color>
+    <color name="deseleccion">#1affffff </color>
+    <color name="deseleccion_alt">#66ffffff</color>
+
+    <color name="red">#FFF44336</color>
+    <color name="c_icon_like">#145795</color>
+
+    <!-- colors for achievement page-->
+    <color name="color1">#424549</color>
+    <color name="color2">#7e455e</color>
+    <color name="color3">#796e25</color>
+    <color name="color4">#59717c</color>
+
+
+</resources>
